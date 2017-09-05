@@ -1,4 +1,6 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=..\CT_Entire_Project\CT_Entire_Project.PrjPcb
+ProjectPath=..\CT_Project\CT_Project.PrjPcb
+[Project2]
+ProjectPath=..\Altium Libraries\Imported SJ1-3533NG.lia\SJ1-3533NG.LibPkg
