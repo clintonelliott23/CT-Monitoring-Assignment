@@ -1,0 +1,127 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_CompilerCpp_SearchUserPaths</name>
+      <values lines_count="4">
+        <Line>"${ProjDirPath}/Static_Code/PDD"</Line>
+        <Line>"${ProjDirPath}/Static_Code/IO_Map"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="4">
+        <Line>"${ProjDirPath}/Static_Code/PDD"</Line>
+        <Line>"${ProjDirPath}/Static_Code/IO_Map"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/AS1.c" FileDate="2017-08-17, 19:26:43" FileAge="1502962003617" FileType="45637" CompNumb="52" />
+      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2017-08-04, 12:23:34" FileAge="1501813414367" FileType="45637" CompNumb="4" />
+      <File Name="Static_Code/PDD/VREF_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414320" FileType="1048576" />
+      <File Name="Generated_Code/BLUE.h" FileDate="2017-08-07, 17:13:10" FileAge="1502089990542" FileType="45637" CompNumb="44" />
+      <File Name="Static_Code/PDD/CMP_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414210" FileType="1048576" />
+      <File Name="Static_Code/PDD/PORT_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414284" FileType="1048576" />
+      <File Name="Generated_Code/BLUE.c" FileDate="2017-08-07, 17:13:10" FileAge="1502089990539" FileType="45637" CompNumb="44" />
+      <File Name="Static_Code/PDD/LPTMR_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414266" FileType="1048576" />
+      <File Name="Generated_Code/GREEN.h" FileDate="2017-08-07, 17:09:50" FileAge="1502089790115" FileType="45637" CompNumb="40" />
+      <File Name="Documentation/doxygen/PwmLdd1_component.txt" FileDate="2017-08-17, 19:26:43" FileAge="1502962003721" FileType="45637" CompNumb="35" />
+      <File Name="Generated_Code/GREEN.c" FileDate="2017-08-07, 17:09:50" FileAge="1502089790120" FileType="45637" CompNumb="40" />
+      <File Name="Documentation/doxygen/RealTimeLdd1_component.txt" FileDate="2017-08-17, 19:26:43" FileAge="1502962003746" FileType="45637" CompNumb="50" />
+      <File Name="Sources/Events.h" FileDate="2017-08-17, 18:46:23" FileAge="1502959583279" FileType="131328" />
+      <File Name="Static_Code/PDD/UART_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414310" FileType="1048576" />
+      <File Name="Documentation/doxygen/TU1_component.txt" FileDate="2017-08-17, 19:26:43" FileAge="1502962003715" FileType="45637" CompNumb="36" />
+      <File Name="Generated_Code/I2C.h" FileDate="2017-08-17, 09:07:47" FileAge="1502924867823" FileType="45637" CompNumb="21" />
+      <File Name="Generated_Code/ASerialLdd2.h" FileDate="2017-08-17, 19:26:43" FileAge="1502962003752" FileType="45637" CompNumb="53" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414398" FileType="45637" />
+      <File Name="Sources/Events.c" FileDate="2017-08-17, 20:08:05" FileAge="1502964485892" FileType="131328" />
+      <File Name="Static_Code/PDD/SPI_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414304" FileType="1048576" />
+      <File Name="Static_Code/PDD/EWM_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414233" FileType="1048576" />
+      <File Name="Generated_Code/I2C.c" FileDate="2017-08-17, 09:07:47" FileAge="1502924867816" FileType="45637" CompNumb="21" />
+      <File Name="Generated_Code/ASerialLdd2.c" FileDate="2017-08-17, 19:26:43" FileAge="1502962003757" FileType="45637" CompNumb="53" />
+      <File Name="Static_Code/PDD/SIM_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414300" FileType="1048576" />
+      <File Name="Generated_Code/ASerialLdd1.h" FileDate="2017-08-17, 20:14:38" FileAge="1502964878160" FileType="45637" CompNumb="39" />
+      <File Name="Documentation/doxygen/PwmLdd3_component.txt" FileDate="2017-08-17, 19:26:43" FileAge="1502962003733" FileType="45637" CompNumb="45" />
+      <File Name="Generated_Code/PE_LDD.h" FileDate="2017-08-17, 18:46:23" FileAge="1502959583268" FileType="45637" CompNumb="4" />
+      <File Name="Static_Code/PDD/ADC_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414199" FileType="1048576" />
+      <File Name="Generated_Code/ASerialLdd1.c" FileDate="2017-08-17, 20:14:38" FileAge="1502964878170" FileType="45637" CompNumb="39" />
+      <File Name="Generated_Code/PE_LDD.c" FileDate="2017-08-17, 19:26:43" FileAge="1502962003791" FileType="45637" CompNumb="4" />
+      <File Name="Static_Code/PDD/SAI_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414291" FileType="1048576" />
+      <File Name="Generated_Code/IntI2cLdd1.h" FileDate="2017-08-17, 09:07:47" FileAge="1502924867835" FileType="45637" CompNumb="22" />
+      <File Name="Static_Code/PDD/DMA_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414230" FileType="1048576" />
+      <File Name="Project_Settings/Startup_Code/startup.c" FileDate="2017-08-04, 12:23:33" FileAge="1501813413919" FileType="16384" CompNumb="4" />
+      <File Name="Generated_Code/IntI2cLdd1.c" FileDate="2017-08-17, 09:07:47" FileAge="1502924867840" FileType="45637" CompNumb="22" />
+      <File Name="Documentation/doxygen/Lab2_project.txt" FileDate="2017-08-17, 18:46:23" FileAge="1502959583258" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/CsIO1.h" FileDate="2017-08-17, 18:46:23" FileAge="1502959583186" FileType="45637" CompNumb="54" />
+      <File Name="Generated_Code/IO1.h" FileDate="2017-08-17, 19:26:43" FileAge="1502962003769" FileType="45637" CompNumb="55" />
+      <File Name="Static_Code/PDD/FTM_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414247" FileType="1048576" />
+      <File Name="Generated_Code/CsIO1.c" FileDate="2017-08-17, 19:26:43" FileAge="1502962003786" FileType="45637" CompNumb="54" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2017-08-07, 17:09:50" FileAge="1502089790154" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/IO1.c" FileDate="2017-08-17, 19:26:43" FileAge="1502962003774" FileType="45637" CompNumb="55" />
+      <File Name="Documentation/doxygen/ASerialLdd1_component.txt" FileDate="2017-08-17, 20:14:38" FileAge="1502964878176" FileType="45637" CompNumb="39" />
+      <File Name="ProjectInfo.xml" FileDate="2017-08-17, 18:46:23" FileAge="1502959583660" FileType="45637" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2017-08-17, 18:46:23" FileAge="1502959583253" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/TU2.h" FileDate="2017-08-09, 10:38:55" FileAge="1502239135611" FileType="45637" CompNumb="51" />
+      <File Name="Static_Code/PDD/CMT_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414213" FileType="1048576" />
+      <File Name="Documentation/Lab2.txt" FileDate="2017-08-17, 19:03:12" FileAge="1502960592996" FileType="3072" />
+      <File Name="Static_Code/PDD/GPIO_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414256" FileType="1048576" />
+      <File Name="Documentation/Lab2_SIGNALS.txt" FileDate="2017-08-17, 20:14:38" FileAge="1502964878221" FileType="3072" />
+      <File Name="Generated_Code/TU2.c" FileDate="2017-08-09, 10:38:55" FileAge="1502239135620" FileType="45637" CompNumb="51" />
+      <File Name="Generated_Code/TU1.h" FileDate="2017-08-07, 17:13:10" FileAge="1502089990587" FileType="45637" CompNumb="36" />
+      <File Name="Documentation/doxygen/IntI2cLdd1_component.txt" FileDate="2017-08-17, 09:07:47" FileAge="1502924867847" FileType="45637" CompNumb="22" />
+      <File Name="Generated_Code/TU1.c" FileDate="2017-08-07, 17:13:10" FileAge="1502089990593" FileType="45637" CompNumb="36" />
+      <File Name="Generated_Code/Term1.h" FileDate="2017-08-17, 19:03:12" FileAge="1502960592482" FileType="45637" CompNumb="37" />
+      <File Name="Static_Code/PDD/WDOG_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414325" FileType="1048576" />
+      <File Name="Generated_Code/Term1.c" FileDate="2017-08-17, 19:03:12" FileAge="1502960592489" FileType="45637" CompNumb="37" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2017-08-17, 20:14:38" FileAge="1502964878182" FileType="45637" CompNumb="4" />
+      <File Name="Documentation/doxygen/pex.css" FileDate="2017-08-04, 12:23:34" FileAge="1501813414019" FileType="16384" CompNumb="4" />
+      <File Name="Static_Code/PDD/PDD_Types.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414193" FileType="1048576" CompNumb="4" />
+      <File Name="Static_Code/PDD/PDB_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414277" FileType="1048576" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414389" FileType="45637" />
+      <File Name="Sources/main.c" FileDate="2017-08-17, 20:13:21" FileAge="1502964801737" FileType="128" />
+      <File Name="Documentation/Lab2_Settings.xml" FileDate="2017-08-17, 20:14:38" FileAge="1502964878327" FileType="3072" />
+      <File Name="Static_Code/PDD/PIT_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414280" FileType="1048576" />
+      <File Name="Static_Code/PDD/I2C_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414263" FileType="1048576" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2017-08-17, 18:46:23" FileAge="1502959583241" FileType="45637" />
+      <File Name="Static_Code/PDD/USBDCD_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414314" FileType="1048576" />
+      <File Name="Static_Code/PDD/RTC_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414287" FileType="1048576" />
+      <File Name="Documentation/doxygen/PwmLdd2_component.txt" FileDate="2017-08-17, 19:26:43" FileAge="1502962003727" FileType="45637" CompNumb="41" />
+      <File Name="Static_Code/PDD/MCG_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414271" FileType="1048576" />
+      <File Name="Documentation/doxygen/TU2_component.txt" FileDate="2017-08-17, 19:26:43" FileAge="1502962003742" FileType="45637" CompNumb="51" />
+      <File Name="Static_Code/IO_Map/MK20D5.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414184" FileType="1048576" CompNumb="4" />
+      <File Name="Static_Code/PDD/CRC_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414216" FileType="1048576" />
+      <File Name="Static_Code/PDD/FMC_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414240" FileType="1048576" />
+      <File Name="Generated_Code/RED.h" FileDate="2017-08-07, 17:09:50" FileAge="1502089790084" FileType="45637" CompNumb="34" />
+      <File Name="Generated_Code/Timer.h" FileDate="2017-08-09, 10:51:17" FileAge="1502239877360" FileType="45637" CompNumb="49" />
+      <File Name="Generated_Code/RealTimeLdd1.h" FileDate="2017-08-09, 10:51:17" FileAge="1502239877346" FileType="45637" CompNumb="50" />
+      <File Name="Generated_Code/Inhr1.h" FileDate="2017-08-17, 20:14:38" FileAge="1502964878153" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/RED.c" FileDate="2017-08-07, 17:09:50" FileAge="1502089790091" FileType="45637" CompNumb="34" />
+      <File Name="Generated_Code/RealTimeLdd1.c" FileDate="2017-08-09, 10:51:17" FileAge="1502239877353" FileType="45637" CompNumb="50" />
+      <File Name="Generated_Code/Timer.c" FileDate="2017-08-09, 10:51:17" FileAge="1502239877366" FileType="45637" CompNumb="49" />
+      <File Name="Static_Code/PDD/OSC_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414274" FileType="1048576" />
+      <File Name="Generated_Code/Inhr1.c" FileDate="2017-08-17, 20:14:38" FileAge="1502964878148" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/PwmLdd3.h" FileDate="2017-08-07, 17:13:10" FileAge="1502089990550" FileType="45637" CompNumb="45" />
+      <File Name="Documentation/doxygen/ASerialLdd2_component.txt" FileDate="2017-08-17, 19:26:43" FileAge="1502962003763" FileType="45637" CompNumb="53" />
+      <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2017-08-04, 12:23:34" FileAge="1501813414364" FileType="45637" CompNumb="4" />
+      <File Name="Static_Code/PDD/DMAMUX_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414226" FileType="1048576" />
+      <File Name="Generated_Code/PwmLdd3.c" FileDate="2017-08-07, 17:13:10" FileAge="1502089990547" FileType="45637" CompNumb="45" />
+      <File Name="Generated_Code/PwmLdd2.h" FileDate="2017-08-07, 17:09:50" FileAge="1502089790096" FileType="45637" CompNumb="41" />
+      <File Name="Static_Code/PDD/USB_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414317" FileType="1048576" />
+      <File Name="Generated_Code/PwmLdd2.c" FileDate="2017-08-07, 17:09:50" FileAge="1502089790101" FileType="45637" CompNumb="41" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414395" FileType="45637" />
+      <File Name="Static_Code/PDD/FTFL_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414243" FileType="1048576" />
+      <File Name="Generated_Code/PwmLdd1.h" FileDate="2017-08-07, 17:09:50" FileAge="1502089790065" FileType="45637" CompNumb="35" />
+      <File Name="Static_Code/PDD/SysTick_PDD.h" FileDate="2017-08-04, 12:23:34" FileAge="1501813414307" FileType="1048576" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2017-08-04, 12:23:34" FileAge="1501813414350" FileType="8" CompNumb="4" />
+      <File Name="Generated_Code/PwmLdd1.c" FileDate="2017-08-07, 17:09:50" FileAge="1502089790070" FileType="45637" CompNumb="35" />
+      <File Name="Documentation/doxygen/IO1_component.txt" FileDate="2017-08-17, 19:26:43" FileAge="1502962003780" FileType="45637" CompNumb="55" />
+      <File Name="Generated_Code/AS1.h" FileDate="2017-08-17, 19:26:43" FileAge="1502962003627" FileType="45637" CompNumb="52" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>74</CodeGenReference>
+</CodeGenerationInfo>

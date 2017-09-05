@@ -1,0 +1,28 @@
+  	  /* Receives a Character to be used in the Switch Statement*/
+//  	 	char recieveChar()
+//  	 	{
+ // 	 		byte c, out;
+  //	 		do {
+ // 	 				out = AS1_RecvChar(&c);
+ // 	 				Term1_MoveTo(16,6);
+ //  	 					Term1_SendChar(out);
+  //	 			}	 while (out != ERR_OK);
+  //	 					return c;
+ // 	 	}/* END */
+
+
+  	 	/* Receives a String message and Boolean number to be sent to Putty Screen one letter at a time */
+  	 		void Send(char *str, _Bool enter)
+  	 		{
+  	 				unsigned int i, len;
+  	 				len = strlen(str);
+  	 				byte out;
+  	 				for (i = 0; i < len; i++) 	{
+  	 						do {
+  	 							out = AS1_SendChar(str[i]);
+  	 							} while (out != ERR_OK);
+  	 											}
+  	 					if (enter == 1) 	{
+  	 						Send("\r\n",0);
+  	 										}
+  	 		}/* END */
