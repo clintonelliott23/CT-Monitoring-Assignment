@@ -1,0 +1,71 @@
+void TI2_OnInterrupt(void)
+{
+	if(sample_index < number_samples){
+		unsigned short CT_rawed_values[4];
+		ADC_Measure(TRUE);
+		ADC_GetValue16(&CT_rawed_values);
+
+		if (ch1_measure) {
+		CT1_Raw[sample_index] = CT_rawed_values[3]; // pin 1
+
+		} else if (ch2_measure) {
+		CT2_Raw[sample_index] = CT_rawed_values[2]; // pin 2
+
+		} else if (ch2_measure) {
+		CT3_Raw[sample_index] = CT_rawed_values[0]; // pin 3
+
+		} else if (ch2_measure) {
+		CT4_Raw[sample_index] = CT_rawed_values[1]; // pin 4
+		}
+				sample_index++;
+	}
+
+}ADC_GetChanValue16();
+
+
+						TI2_Enable();
+						 while(sample_index < number_samples){
+										ADC_Measure(0);
+										ADC_GetValue16(&CT_raw_values);
+												CT1_Raw[sample_index] = CT_raw_values[3]; // pin 1
+												CT2_Raw[sample_index] = CT_raw_values[2]; // pin 2
+												CT3_Raw[sample_index] = CT_raw_values[0]; // pin 3
+												CT4_Raw[sample_index] = CT_raw_values[1]; // pin 4			
+							 __asm("wfi");
+							 }
+						TI2_Disable();
+						
+						
+
+		//		Term1_MoveTo(12,15);Term1_SendStr("CT1 Current:");				Term1_SendNum(CT1_Raw[1]);	Term1_SendStr("       ");
+							
+							
+							
+							if (min_val > CT1_Raw){
+								disable1 = 1;
+								reable_counter1 = 0;
+							}
+									}
+
+				if (reable_counter1 == 10){
+								disable1 = 0;
+											}
+				reable_counter1++;
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+						

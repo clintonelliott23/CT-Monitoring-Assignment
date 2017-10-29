@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/pi/ctpi/build",
+  "command": "/home/pi/ctpi/ctpi/nbproject/private/tools/localhost/GNU/g++    -g3 -gdwarf-2   -o CMakeFiles/main.dir/src/main.cpp.o -c /home/pi/ctpi/src/main.cpp",
+  "file": "/home/pi/ctpi/src/main.cpp"
+}
+]

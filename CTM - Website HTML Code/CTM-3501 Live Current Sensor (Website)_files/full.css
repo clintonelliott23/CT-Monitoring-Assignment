@@ -1,0 +1,66 @@
+/*!
+ * Start Bootstrap - Full (https://startbootstrap.com/template-overviews/full)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
+ */
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-top: 80px;
+  z-index: 5;
+}
+div.mid {
+	font-family: 'Titillium Web', sans-serif;
+	align-content: center;
+	text-align: center;
+	
+	z-index: 500;
+}
+h1.big {
+	font-size: 60px;
+	position: relative;
+	z-index: 500;
+	
+}
+
+
+h2.medium {
+	font-size: 30px;
+	z-index: 500;
+
+	
+}
+
+.graphs {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+	height: 500px;
+	z-index: 5;
+}
+.row {
+	align-content: center;
+	height:50%;
+	z-index: 5;
+}
+.container {
+	padding-bottom: 10px;
+}
+#background {
+    width: 100%; 
+    height: 400%; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    z-index: 0;
+}
+
+.stretch {
+	min-width:100%; min-height:100%; width:auto; height:auto; 
+	z-index: 0;
+}

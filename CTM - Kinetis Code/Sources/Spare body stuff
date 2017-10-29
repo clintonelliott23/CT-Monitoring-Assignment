@@ -1,0 +1,51 @@
+							// Reset timer for updating the command window
+								if (ERR_OK != Timer_Reset()) {;
+								Term1_MoveTo(20,8);Term1_EraseLine();
+								Term1_MoveTo(20,8);Term1_SendStr("Not Resetting");
+								}
+							// error check sending
+								if (ERR_OK != I2C_SendChar(0x01)) {
+									Term1_MoveTo(20,20);Term1_SendStr("Poxy I2C thing didn't work");
+								}
+							// error check reading
+								if (ERR_OK != I2C_RecvBlock(xyz_holder,6,&number_bytes)) {
+									Term1_MoveTo(20,20);Term1_SendStr("Reading error bra!");
+								}
+
+							// Extract the x, y and z values from the buffer
+							x = xyz_holder[0];
+							y = xyz_holder[1];
+							z = xyz_holder[2];
+
+							// Print to terminal window
+							Term1_MoveTo(12,4);		Term1_SendNum(x);	Term1_SendStr("   ");
+							Term1_MoveTo(12,5);		Term1_SendNum(y);	Term1_SendStr("   ");
+							Term1_MoveTo(12,6);		Term1_SendNum(z);	Term1_SendStr("   ");
+
+
+
+				// check to see if message is being sent
+				snprintf(buffer, 100, "%i,%i,%i\n", xyz_holder[0], xyz_holder[1], xyz_holder[2]);
+				word sent;
+				//send to zigbee device of asynchro
+						if (ERR_OK == AS1_SendBlock(buffer, strlen(buffer), &sent)) {
+						Term1_MoveTo(15,12);Term1_SendStr("Data Sent");
+						// number of messages sent display sending
+						int i; i++;
+							Term1_CursorRight(i*3);Term1_SendNum(i);
+									if (i == 6){
+										Term1_MoveTo(15,12);Term1_EraseLine();
+										i = 0;
+								}
+
+					//another way to send the data piece-wise
+						unsigned int count =0;
+						Term1_MoveTo(15+count,13);
+						byte out;
+						for (count = 0; count < strlen(buffer); count++) 	{
+								do {
+									out = AS1_SendChar(buffer[count]);
+									Term1_SendChar(buffer[count]);
+									} while (out != ERR_OK);
+													}
+				}// if-2
